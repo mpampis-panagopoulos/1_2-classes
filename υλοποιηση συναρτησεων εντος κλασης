@@ -1,0 +1,7 @@
+class Circle{ 
+public:
+	void SetRadius(double r) { radius = r;} 
+	double AreaOf() { return (3.14 * radius * radius);} 
+private:
+	double radius; // ακτίνα του κύκλου 
+};
